@@ -1,0 +1,34 @@
+# Core dependencies
+numpy<2.0.0
+python-dotenv
+torch==2.1.0
+torchvision==0.16.0 
+torchaudio==2.1.0
+sentence-transformers>=2.2.2,<3.5.0
+rank-bm25==0.2.2
+faiss-cpu==1.10.0  # If using GPU, replace with faiss-gpu
+scikit-learn==1.3.0
+tqdm>=4.66.3
+huggingface_hub>=0.19.3  # Ensure compatibility with transformers
+peft==0.7.1
+PyPDF2==3.0.1
+pymupdf
+tools
+
+# PDF Parsing
+pdfplumber==0.9.0
+nltk==3.8.1
+
+# Transformers and Tokenizers
+transformers>=4.40.0  # Ensure compatibility with tokenizers>=0.19.1
+tokenizers>=0.19.1
+
+# LangChain and its dependencies
+langchain==0.3.20
+langchain-core>=0.3.41,<1.0.0
+langchain-community>=0.3.19
+langchain-huggingface>=0.1.2
+openai==1.65.3  # Ensure compatibility with langchain integrations
+
+# Additional useful dependencies
+datasets==3.3.2
